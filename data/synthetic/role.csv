@@ -1,0 +1,126 @@
+role_id,title,org_level,grade,summary,responsibilities,owned_kpis,job_description
+CSO,Chief Sales Officer,national,BP-I,Owns national revenue and subscriber targets and the territory operating model.,Set the annual national revenue target and cascade it to Areas; Run the monthly national performance review; Approve territory realignment and growth programs,REV_TOTAL (A),"Chief Sales Officer (national level, grade BP-I). Owns national revenue and subscriber targets and the territory operating model.
+Key responsibilities:
+- Set the annual national revenue target and cascade it to Areas
+- Run the monthly national performance review
+- Approve territory realignment and growth programs
+KPI ownership (A=accountable, R=responsible): REV_TOTAL (A)."
+HQ_PLAN,Head of Sales Planning & Performance,national,BP-II,"Owns target setting, the KPI framework and territory potential models.",Cascade targets from national to cluster using territory potential; Maintain the KPI dictionary and scorecard weights; Publish monthly performance packs,none,"Head of Sales Planning & Performance (national level, grade BP-II). Owns target setting, the KPI framework and territory potential models.
+Key responsibilities:
+- Cascade targets from national to cluster using territory potential
+- Maintain the KPI dictionary and scorecard weights
+- Publish monthly performance packs
+KPI ownership (A=accountable, R=responsible): none."
+HQ_CHANNEL,Head of Channel Management,national,BP-II,"Owns the outlet and partner channel strategy (NusaPOS, distributors).",Define outlet activation and productivity programs; Manage national distributor partner agreements,none,"Head of Channel Management (national level, grade BP-II). Owns the outlet and partner channel strategy (NusaPOS, distributors).
+Key responsibilities:
+- Define outlet activation and productivity programs
+- Manage national distributor partner agreements
+KPI ownership (A=accountable, R=responsible): none."
+HQ_HR,Head of People Partner (Sales),national,BP-II,"Owns people processes for the sales organisation: performance cycle, staffing and coaching.",Run the performance management cycle in line with the PKB; Approve staffing plans and backfill priorities; Govern the use of people analytics and AI in HR decisions,none,"Head of People Partner (Sales) (national level, grade BP-II). Owns people processes for the sales organisation: performance cycle, staffing and coaching.
+Key responsibilities:
+- Run the performance management cycle in line with the PKB
+- Approve staffing plans and backfill priorities
+- Govern the use of people analytics and AI in HR decisions
+KPI ownership (A=accountable, R=responsible): none."
+AVP,Area Vice President,area,BP-II,Accountable for revenue of all provinces in the Area.,Review Region performance weekly; Escalation point for Regional General Managers; Allocate Area budget for growth programs,REV_TOTAL (A),"Area Vice President (area level, grade BP-II). Accountable for revenue of all provinces in the Area.
+Key responsibilities:
+- Review Region performance weekly
+- Escalation point for Regional General Managers
+- Allocate Area budget for growth programs
+KPI ownership (A=accountable, R=responsible): REV_TOTAL (A)."
+AREA_PLAN,Area Sales Planning Manager,area,BP-III,"Supports the AVP with target cascade, forecasting and performance analytics for the Area.",Prepare Area forecasts and gap analyses; Propose target re-allocation between Regions,none,"Area Sales Planning Manager (area level, grade BP-III). Supports the AVP with target cascade, forecasting and performance analytics for the Area.
+Key responsibilities:
+- Prepare Area forecasts and gap analyses
+- Propose target re-allocation between Regions
+KPI ownership (A=accountable, R=responsible): none."
+AREA_HRBP,Area HR Business Partner,area,BP-III,HR partner for the Area leadership team.,Coordinate staffing and backfill across Regions; Run calibration sessions for the Area,none,"Area HR Business Partner (area level, grade BP-III). HR partner for the Area leadership team.
+Key responsibilities:
+- Coordinate staffing and backfill across Regions
+- Run calibration sessions for the Area
+KPI ownership (A=accountable, R=responsible): none."
+RGM,Regional General Manager,region,BP-II,"Accountable for total revenue, subscriber growth and team health of all branches in the Region.",Own Region revenue vs target and the monthly business review; Approve action plans escalated by Branch Managers; Coach Branch Managers and sponsor backfill for critical vacancies; Coordinate with Network Operations on outages that affect revenue,REV_TOTAL (A),"Regional General Manager (region level, grade BP-II). Accountable for total revenue, subscriber growth and team health of all branches in the Region.
+Key responsibilities:
+- Own Region revenue vs target and the monthly business review
+- Approve action plans escalated by Branch Managers
+- Coach Branch Managers and sponsor backfill for critical vacancies
+- Coordinate with Network Operations on outages that affect revenue
+KPI ownership (A=accountable, R=responsible): REV_TOTAL (A)."
+RSM,Regional Sales Manager,region,BP-III,Runs consumer sales execution across the Region's branches.,Track prepaid and data revenue drivers per branch; Lead sales programs and promotions,REV_DATA (A),"Regional Sales Manager (region level, grade BP-III). Runs consumer sales execution across the Region's branches.
+Key responsibilities:
+- Track prepaid and data revenue drivers per branch
+- Lead sales programs and promotions
+KPI ownership (A=accountable, R=responsible): REV_DATA (A)."
+RCM,Regional Channel Manager,region,BP-III,"Owns outlet coverage, activation and partner performance in the Region.",Manage distributor partners' performance; Track active outlets and recharge availability,OUTLET_ACTIVE (A),"Regional Channel Manager (region level, grade BP-III). Owns outlet coverage, activation and partner performance in the Region.
+Key responsibilities:
+- Manage distributor partners' performance
+- Track active outlets and recharge availability
+KPI ownership (A=accountable, R=responsible): OUTLET_ACTIVE (A)."
+RB2B,Regional B2B Manager,region,BP-III,Owns enterprise and SME revenue in the Region.,Manage the B2B pipeline; Lead B2B Account Managers in branches,REV_B2B (A),"Regional B2B Manager (region level, grade BP-III). Owns enterprise and SME revenue in the Region.
+Key responsibilities:
+- Manage the B2B pipeline
+- Lead B2B Account Managers in branches
+KPI ownership (A=accountable, R=responsible): REV_B2B (A)."
+RHRBP,Regional HR Business Partner,region,BP-IV,"HR partner for the Region: staffing, performance cycle, coaching support.",Process backfill requests; Support managers with coaching and development plans; Ensure performance processes follow the PKB and SP procedure,none,"Regional HR Business Partner (region level, grade BP-IV). HR partner for the Region: staffing, performance cycle, coaching support.
+Key responsibilities:
+- Process backfill requests
+- Support managers with coaching and development plans
+- Ensure performance processes follow the PKB and SP procedure
+KPI ownership (A=accountable, R=responsible): none."
+RNOM,Regional Network Operations Manager,region,BP-III,Owns network availability and incident recovery in the Region (dotted line to sales).,Restore site outages within SLA; Report outages that affect revenue to the RGM; Prioritise capacity upgrades in high-potential areas,NETWORK_AVAIL (A),"Regional Network Operations Manager (region level, grade BP-III). Owns network availability and incident recovery in the Region (dotted line to sales).
+Key responsibilities:
+- Restore site outages within SLA
+- Report outages that affect revenue to the RGM
+- Prioritise capacity upgrades in high-potential areas
+KPI ownership (A=accountable, R=responsible): NETWORK_AVAIL (A)."
+BM,Branch Manager,branch,BP-III,"Accountable for revenue, subscribers and channel health of one province (branch).",Own branch revenue vs target; Lead Cluster Sales Managers; Approve cluster action plans; Escalate network or partner issues to the Region,REV_TOTAL (A),"Branch Manager (branch level, grade BP-III). Accountable for revenue, subscribers and channel health of one province (branch).
+Key responsibilities:
+- Own branch revenue vs target
+- Lead Cluster Sales Managers
+- Approve cluster action plans
+- Escalate network or partner issues to the Region
+KPI ownership (A=accountable, R=responsible): REV_TOTAL (A)."
+BSM,Branch Sales Manager,branch,BP-IV,Runs consumer sales programs across clusters in the branch.,"Drive prepaid, data and home broadband sales; Track ARPU and churn by cluster","REV_DATA (A), REV_VOICE_SMS (A), REV_DIGITAL (A), REV_POSTPAID (A), REV_HOME_BB (A), ARPU (A)","Branch Sales Manager (branch level, grade BP-IV). Runs consumer sales programs across clusters in the branch.
+Key responsibilities:
+- Drive prepaid, data and home broadband sales
+- Track ARPU and churn by cluster
+KPI ownership (A=accountable, R=responsible): REV_DATA (A), REV_VOICE_SMS (A), REV_DIGITAL (A), REV_POSTPAID (A), REV_HOME_BB (A), ARPU (A)."
+BCM,Branch Channel Manager,branch,BP-IV,Owns outlet activation and partner execution in the branch.,Manage distributor partners in the branch; Track active outlets and voucher stock,"OUTLET_ACTIVE (A), RECHARGE_AVAIL (A)","Branch Channel Manager (branch level, grade BP-IV). Owns outlet activation and partner execution in the branch.
+Key responsibilities:
+- Manage distributor partners in the branch
+- Track active outlets and voucher stock
+KPI ownership (A=accountable, R=responsible): OUTLET_ACTIVE (A), RECHARGE_AVAIL (A)."
+B2B_AM,B2B Account Manager,branch,BP-IV,"Manages enterprise, government and SME accounts in the branch.",Grow B2B revenue; Handle key account escalations,REV_B2B (R),"B2B Account Manager (branch level, grade BP-IV). Manages enterprise, government and SME accounts in the branch.
+Key responsibilities:
+- Grow B2B revenue
+- Handle key account escalations
+KPI ownership (A=accountable, R=responsible): REV_B2B (R)."
+BMO,Branch Marketing Officer,branch,BP-V,"Runs local marketing, pricing execution and retention campaigns.",Execute area-based pricing; Run churn-retention campaigns; Track ARPU and postpaid sales,"REV_DIGITAL (R), REV_POSTPAID (R), CHURN_RATE (R), ARPU (R)","Branch Marketing Officer (branch level, grade BP-V). Runs local marketing, pricing execution and retention campaigns.
+Key responsibilities:
+- Execute area-based pricing
+- Run churn-retention campaigns
+- Track ARPU and postpaid sales
+KPI ownership (A=accountable, R=responsible): REV_DIGITAL (R), REV_POSTPAID (R), CHURN_RATE (R), ARPU (R)."
+BSA,Branch Sales Operations Analyst,branch,BP-V,Prepares branch performance reports and data for reviews.,Maintain branch dashboards; Prepare weekly performance packs,none,"Branch Sales Operations Analyst (branch level, grade BP-V). Prepares branch performance reports and data for reviews.
+Key responsibilities:
+- Maintain branch dashboards
+- Prepare weekly performance packs
+KPI ownership (A=accountable, R=responsible): none."
+CSM,Cluster Sales Manager,cluster,BP-IV,Accountable for revenue vs target of one cluster (1-3 kabupaten/kota) and leads the cluster sales team.,"Own cluster revenue, net adds and active outlets; Lead Sales Supervisors and Channel Officers; coach new joiners; Coordinate the partner sales force (canvassers) through the distributor; Propose and execute weekly action plans; escalate blockers to the Branch Manager","REV_TOTAL (A), REV_DATA (A), REV_HOME_BB (R), SUBS_ACTIVE (A), NET_ADD (A), CHURN_RATE (A), OUTLET_ACTIVE (A)","Cluster Sales Manager (cluster level, grade BP-IV). Accountable for revenue vs target of one cluster (1-3 kabupaten/kota) and leads the cluster sales team.
+Key responsibilities:
+- Own cluster revenue, net adds and active outlets
+- Lead Sales Supervisors and Channel Officers; coach new joiners
+- Coordinate the partner sales force (canvassers) through the distributor
+- Propose and execute weekly action plans; escalate blockers to the Branch Manager
+KPI ownership (A=accountable, R=responsible): REV_TOTAL (A), REV_DATA (A), REV_HOME_BB (R), SUBS_ACTIVE (A), NET_ADD (A), CHURN_RATE (A), OUTLET_ACTIVE (A)."
+SS,Sales Supervisor,cluster,BP-V,Responsible for revenue and subscriber growth in assigned kecamatan.,Plan and supervise partner canvasser routes in assigned kecamatan; Drive outlet activation and recharge sell-through; Track net adds and churn; report issues to the Cluster Sales Manager,"REV_TOTAL (R), REV_DATA (R), REV_VOICE_SMS (R), SUBS_ACTIVE (R), NET_ADD (R)","Sales Supervisor (cluster level, grade BP-V). Responsible for revenue and subscriber growth in assigned kecamatan.
+Key responsibilities:
+- Plan and supervise partner canvasser routes in assigned kecamatan
+- Drive outlet activation and recharge sell-through
+- Track net adds and churn; report issues to the Cluster Sales Manager
+KPI ownership (A=accountable, R=responsible): REV_TOTAL (R), REV_DATA (R), REV_VOICE_SMS (R), SUBS_ACTIVE (R), NET_ADD (R)."
+CO,Channel Officer,cluster,BP-V,"Responsible for outlet activation, NusaPOS adoption and voucher/recharge stock availability in the cluster.",Activate and re-activate outlets; Monitor recharge stock and resolve stock-outs with the distributor; Onboard outlets to NusaPOS,"OUTLET_ACTIVE (R), RECHARGE_AVAIL (R)","Channel Officer (cluster level, grade BP-V). Responsible for outlet activation, NusaPOS adoption and voucher/recharge stock availability in the cluster.
+Key responsibilities:
+- Activate and re-activate outlets
+- Monitor recharge stock and resolve stock-outs with the distributor
+- Onboard outlets to NusaPOS
+KPI ownership (A=accountable, R=responsible): OUTLET_ACTIVE (R), RECHARGE_AVAIL (R)."

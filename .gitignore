@@ -1,0 +1,42 @@
+# secrets and local config
+accounts
+.env
+.env.*
+!.env.example
+
+# dependencies and build output
+node_modules/
+.venv/
+.next/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.tsbuildinfo
+next-env.d.ts
+.adk/
+
+# OS and editor
+.DS_Store
+~$*
+
+# AI assistant files and generated documentation
+CLAUDE.md
+AGENTS.md
+GEMINI.md
+.claude/
+web/README.md
+agent/README.md
+agent/tests/eval/datasets/README.md
+docs/
+reports/
+research_notes/
+archive_outdated/
+data/DATA_DICTIONARY.md
+
+# not part of the code drop
+submission/
+
+# large or reproducible data (regenerate with `python -m datagen`)
+data/raw/
+data/synthetic/revenue_monthly.parquet
+data/synthetic/revenue_target_monthly.parquet

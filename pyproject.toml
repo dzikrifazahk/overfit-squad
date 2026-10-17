@@ -1,0 +1,10 @@
+[project]
+name = "territory-performance-copilot"
+version = "0.1.0"
+description = "Hackathon prototype: telco territory revenue + HR performance copilot for a fictional Indonesian operator"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy>=2.0",
+    "pandas>=2.2",
+    "pyarrow>=15",
+]

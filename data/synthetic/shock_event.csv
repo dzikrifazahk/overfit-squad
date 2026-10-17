@@ -1,0 +1,12 @@
+event_id,event_type,controllable_by_sales,title,regency_kode,start_date,end_date,affected_streams,description,owner_role_id,est_revenue_loss_idr
+EVT001,site_outage,False,"Fiber backbone cut + power outage, Cianjur south",32.03,2026-10-03,2026-10-11,"data,voice_sms,digital",9-day outage on 31 sites after a landslide cut the fiber backbone; prepaid usage collapsed in 8 kecamatan.,RNOM,3550689947
+EVT002,competitor_promo,False,"Competitor unlimited-data promo, Bekasi","32.16,32.75",2026-09-01,2026-09-30,"data,voice_sms,digital",Aggressive competitor price promo; ~3% prepaid revenue impact.,BMO,2850384899
+EVT003,competitor_promo,False,"Competitor unlimited-data promo, Bekasi","32.16,32.75",2026-10-01,2026-10-16,"data,voice_sms,digital",Aggressive competitor price promo; ~3% prepaid revenue impact.,BMO,1468017661
+EVT004,flood,False,Flood in 53.11,53.11,2026-07-01,2026-07-07,"data,voice_sms,digital",Synthetic flood event.,RNOM,88148108
+EVT005,flood,False,Flood in 51.04,51.04,2026-07-01,2026-07-15,"data,voice_sms,digital",Synthetic flood event.,RNOM,312025323
+EVT006,flood,False,Flood in 14.08,14.08,2026-02-01,2026-02-19,"data,voice_sms,digital",Synthetic flood event.,RNOM,336788115
+EVT007,flood,False,Flood in 21.72,21.72,2026-02-01,2026-02-09,"data,voice_sms,digital",Synthetic flood event.,RNOM,72085640
+EVT008,site_outage,False,Site Outage in 93.03,93.03,2026-03-01,2026-03-07,"data,voice_sms,digital",Synthetic site_outage event.,RNOM,28764174
+EVT009,landslide,False,Landslide in 63.09,63.09,2026-09-01,2026-09-22,"data,voice_sms,digital",Synthetic landslide event.,RNOM,184285382
+EVT010,site_outage,False,Site Outage in 71.03,71.03,2026-09-01,2026-09-22,"data,voice_sms,digital",Synthetic site_outage event.,RNOM,67362791
+EVT011,flood,False,Flood in 71.01,71.01,2026-08-01,2026-08-05,"data,voice_sms,digital",Synthetic flood event.,RNOM,94969685

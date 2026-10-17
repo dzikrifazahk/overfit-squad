@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-jakarta), ui-sans-serif, system-ui, sans-serif;
+  --color-ink: #1e2330;
+  --color-muted: #64748b;
+  --color-line: #e2e8f0;
+  --color-panel: #ffffff;
+  --color-canvas: #f4f5f7;
+  /* Overfit Squad logo red + navy */
+  --color-brand: #e5232b;
+  --color-brand-strong: #c0151d;
+  --color-brand-soft: #ffe9ea;
+}
+
+html,
+body {
+  height: 100%;
+  background: var(--color-canvas);
+  color: var(--color-ink);
+}
+
+.scroll-thin {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 transparent;
+}
+
+@keyframes pulse-ring {
+  0% { transform: scale(0.6); opacity: 0.9; }
+  100% { transform: scale(2.2); opacity: 0; }
+}

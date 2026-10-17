@@ -1,0 +1,243 @@
+org_unit_id,level,name,parent_org_unit_id,province_kode
+NAT,national,PT Nusantara Seluler National Sales,,
+A1,area,Area 1 Sumatera,NAT,
+A2,area,Area 2 Jabotabek Jabar,NAT,
+A3,area,Area 3 Jawa Bali Nusra,NAT,
+A4,area,Area 4 Kalimantan Sulawesi Maluku Papua,NAT,
+R01,region,Region Sumbagut,A1,
+BR11,branch,Branch Aceh,R01,11
+CL1101,cluster,Cluster Aceh Selatan,BR11,11
+CL1102,cluster,Cluster Aceh Tengah,BR11,11
+CL1103,cluster,Cluster Pidie,BR11,11
+CL1104,cluster,Cluster Aceh Singkil,BR11,11
+CL1105,cluster,Cluster Gayo Lues,BR11,11
+CL1106,cluster,Cluster Aceh Tamiang,BR11,11
+CL1107,cluster,Cluster Banda Aceh,BR11,11
+CL1108,cluster,Cluster Langsa,BR11,11
+BR12,branch,Branch Sumatera Utara,R01,12
+CL1201,cluster,Cluster Tapanuli Tengah,BR12,12
+CL1202,cluster,Cluster Nias,BR12,12
+CL1203,cluster,Cluster Deli Serdang,BR12,12
+CL1204,cluster,Cluster Labuhanbatu,BR12,12
+CL1205,cluster,Cluster Mandailing Natal,BR12,12
+CL1206,cluster,Cluster Humbang Hasundutan,BR12,12
+CL1207,cluster,Cluster Batu Bara,BR12,12
+CL1208,cluster,Cluster Labuhanbatu Selatan,BR12,12
+CL1209,cluster,Cluster Nias Barat,BR12,12
+CL1210,cluster,Cluster Sibolga,BR12,12
+CL1211,cluster,Cluster Tebing Tinggi,BR12,12
+R02,region,Region Sumbagteng,A1,
+BR13,branch,Branch Sumatera Barat,R02,13
+CL1301,cluster,Cluster Pesisir Selatan,BR13,13
+CL1302,cluster,Cluster Tanah Datar,BR13,13
+CL1303,cluster,Cluster Lima Puluh Kota,BR13,13
+CL1304,cluster,Cluster Dharmasraya,BR13,13
+CL1305,cluster,Cluster Padang,BR13,13
+CL1306,cluster,Cluster Padang Panjang,BR13,13
+CL1307,cluster,Cluster Payakumbuh,BR13,13
+BR14,branch,Branch Riau,R02,14
+CL1401,cluster,Cluster Kampar,BR14,14
+CL1402,cluster,Cluster Indragiri Hilir,BR14,14
+CL1403,cluster,Cluster Rokan Hilir,BR14,14
+CL1404,cluster,Cluster Kepulauan Meranti,BR14,14
+BR21,branch,Branch Kepulauan Riau,R02,21
+CL2101,cluster,Cluster Bintan,BR21,21
+CL2102,cluster,Cluster Lingga,BR21,21
+CL2103,cluster,Cluster Batam,BR21,21
+R03,region,Region Sumbagsel,A1,
+BR15,branch,Branch Jambi,R03,15
+CL1501,cluster,Cluster Kerinci,BR15,15
+CL1502,cluster,Cluster Batanghari,BR15,15
+CL1503,cluster,Cluster Tanjung Jabung Timur,BR15,15
+CL1504,cluster,Cluster Jambi,BR15,15
+BR16,branch,Branch Sumatera Selatan,R03,16
+CL1601,cluster,Cluster Ogan Komering Ulu,BR16,16
+CL1602,cluster,Cluster Lahat,BR16,16
+CL1603,cluster,Cluster Banyuasin,BR16,16
+CL1604,cluster,Cluster Ogan Ilir,BR16,16
+CL1605,cluster,Cluster Musi Rawas Utara,BR16,16
+CL1606,cluster,Cluster Lubuk Linggau,BR16,16
+BR17,branch,Branch Bengkulu,R03,17
+CL1701,cluster,Cluster Bengkulu Selatan,BR17,17
+CL1702,cluster,Cluster Kaur,BR17,17
+CL1703,cluster,Cluster Lebong,BR17,17
+CL1704,cluster,Cluster Bengkulu Tengah,BR17,17
+BR18,branch,Branch Lampung,R03,18
+CL1801,cluster,Cluster Lampung Selatan,BR18,18
+CL1802,cluster,Cluster Lampung Barat,BR18,18
+CL1803,cluster,Cluster Lampung Timur,BR18,18
+CL1804,cluster,Cluster Pringsewu,BR18,18
+CL1805,cluster,Cluster Pesisir Barat,BR18,18
+BR19,branch,Branch Kepulauan Bangka Belitung,R03,19
+CL1901,cluster,Cluster Bangka,BR19,19
+CL1902,cluster,Cluster Bangka Tengah,BR19,19
+CL1903,cluster,Cluster Belitung Timur,BR19,19
+R04,region,Region Jabotabek,A2,
+BR31,branch,Branch Daerah Khusus Ibukota Jakarta,R04,31
+CL3101,cluster,Cluster Kepulauan Seribu,BR31,31
+CL3102,cluster,Cluster Jakarta Barat,BR31,31
+BR36,branch,Branch Banten,R04,36
+CL3601,cluster,Cluster Pandeglang,BR36,36
+CL3602,cluster,Cluster Serang,BR36,36
+CL3603,cluster,Cluster Serang 2,BR36,36
+R05,region,Region Jawa Barat,A2,
+BR32,branch,Branch Jawa Barat,R05,32
+CL3201,cluster,Cluster Garut,BR32,32
+CL3202,cluster,Cluster Tasikmalaya,BR32,32
+CL3203,cluster,Cluster Cianjur,BR32,32
+CL3204,cluster,Cluster Sukabumi,BR32,32
+CL3205,cluster,Cluster Bekasi,BR32,32
+CL3206,cluster,Cluster Bogor,BR32,32
+CL3207,cluster,Cluster Kuningan,BR32,32
+CL3208,cluster,Cluster Sumedang,BR32,32
+CL3209,cluster,Cluster Purwakarta,BR32,32
+CL3210,cluster,Cluster Pangandaran,BR32,32
+CL3211,cluster,Cluster Cirebon,BR32,32
+CL3212,cluster,Cluster Cimahi,BR32,32
+R06,region,Region Jawa Tengah DIY,A3,
+BR33,branch,Branch Jawa Tengah,R06,33
+CL3301,cluster,Cluster Cilacap,BR33,33
+CL3302,cluster,Cluster Banjarnegara,BR33,33
+CL3303,cluster,Cluster Wonosobo,BR33,33
+CL3304,cluster,Cluster Klaten,BR33,33
+CL3305,cluster,Cluster Karanganyar,BR33,33
+CL3306,cluster,Cluster Blora,BR33,33
+CL3307,cluster,Cluster Kudus,BR33,33
+CL3308,cluster,Cluster Semarang,BR33,33
+CL3309,cluster,Cluster Batang,BR33,33
+CL3310,cluster,Cluster Tegal,BR33,33
+CL3311,cluster,Cluster Surakarta,BR33,33
+CL3312,cluster,Cluster Pekalongan,BR33,33
+BR34,branch,Branch Daerah Istimewa Yogyakarta,R06,34
+CL3401,cluster,Cluster Kulon Progo,BR34,34
+CL3402,cluster,Cluster Sleman,BR34,34
+R07,region,Region Jawa Timur,A3,
+BR35,branch,Branch Jawa Timur,R07,35
+CL3501,cluster,Cluster Pacitan,BR35,35
+CL3502,cluster,Cluster Tulungagung,BR35,35
+CL3503,cluster,Cluster Malang,BR35,35
+CL3504,cluster,Cluster Banyuwangi,BR35,35
+CL3505,cluster,Cluster Probolinggo,BR35,35
+CL3506,cluster,Cluster Mojokerto,BR35,35
+CL3507,cluster,Cluster Madiun,BR35,35
+CL3508,cluster,Cluster Bojonegoro,BR35,35
+CL3509,cluster,Cluster Gresik,BR35,35
+CL3510,cluster,Cluster Pamekasan,BR35,35
+CL3511,cluster,Cluster Blitar,BR35,35
+CL3512,cluster,Cluster Pasuruan,BR35,35
+CL3513,cluster,Cluster Surabaya,BR35,35
+R08,region,Region Bali Nusra,A3,
+BR51,branch,Branch Bali,R08,51
+CL5101,cluster,Cluster Jembrana,BR51,51
+CL5102,cluster,Cluster Gianyar,BR51,51
+CL5103,cluster,Cluster Karangasem,BR51,51
+BR52,branch,Branch Nusa Tenggara Barat,R08,52
+CL5201,cluster,Cluster Lombok Barat,BR52,52
+CL5202,cluster,Cluster Sumbawa,BR52,52
+CL5203,cluster,Cluster Sumbawa Barat,BR52,52
+CL5204,cluster,Cluster Mataram,BR52,52
+BR53,branch,Branch Nusa Tenggara Timur,R08,53
+CL5301,cluster,Cluster Kupang,BR53,53
+CL5302,cluster,Cluster Belu,BR53,53
+CL5303,cluster,Cluster Sikka,BR53,53
+CL5304,cluster,Cluster Manggarai,BR53,53
+CL5305,cluster,Cluster Lembata,BR53,53
+CL5306,cluster,Cluster Nagekeo,BR53,53
+CL5307,cluster,Cluster Manggarai Timur,BR53,53
+CL5308,cluster,Cluster Malaka,BR53,53
+R09,region,Region Kalimantan,A4,
+BR61,branch,Branch Kalimantan Barat,R09,61
+CL6101,cluster,Cluster Sambas,BR61,61
+CL6102,cluster,Cluster Ketapang,BR61,61
+CL6103,cluster,Cluster Bengkayang,BR61,61
+CL6104,cluster,Cluster Melawi,BR61,61
+CL6105,cluster,Cluster Pontianak,BR61,61
+BR62,branch,Branch Kalimantan Tengah,R09,62
+CL6201,cluster,Cluster Kotawaringin Barat,BR62,62
+CL6202,cluster,Cluster Barito Selatan,BR62,62
+CL6203,cluster,Cluster Seruyan,BR62,62
+CL6204,cluster,Cluster Gunung Mas,BR62,62
+CL6205,cluster,Cluster Barito Timur,BR62,62
+BR63,branch,Branch Kalimantan Selatan,R09,63
+CL6301,cluster,Cluster Tanah Laut,BR63,63
+CL6302,cluster,Cluster Barito Kuala,BR63,63
+CL6303,cluster,Cluster Hulu Sungai Tengah,BR63,63
+CL6304,cluster,Cluster Tanah Bumbu,BR63,63
+CL6305,cluster,Cluster Banjarmasin,BR63,63
+BR64,branch,Branch Kalimantan Timur,R09,64
+CL6401,cluster,Cluster Paser,BR64,64
+CL6402,cluster,Cluster Kutai Barat,BR64,64
+CL6403,cluster,Cluster Mahakam Ulu,BR64,64
+CL6404,cluster,Cluster Samarinda,BR64,64
+BR65,branch,Branch Kalimantan Utara,R09,65
+CL6501,cluster,Cluster Bulungan,BR65,65
+CL6502,cluster,Cluster Tana Tidung,BR65,65
+R10,region,Region Sulawesi Utara Tengah,A4,
+BR71,branch,Branch Sulawesi Utara,R10,71
+CL7101,cluster,Cluster Bolaang Mongondow,BR71,71
+CL7102,cluster,Cluster Kepulauan Talaud,BR71,71
+CL7103,cluster,Cluster Minahasa Tenggara,BR71,71
+CL7104,cluster,Cluster Bolaang Mongondow Timur,BR71,71
+CL7105,cluster,Cluster Bitung,BR71,71
+BR72,branch,Branch Sulawesi Tengah,R10,72
+CL7201,cluster,Cluster Banggai,BR72,72
+CL7202,cluster,Cluster Toli-Toli,BR72,72
+CL7203,cluster,Cluster Banggai Kepulauan,BR72,72
+CL7204,cluster,Cluster Sigi,BR72,72
+CL7205,cluster,Cluster Morowali Utara,BR72,72
+BR75,branch,Branch Gorontalo,R10,75
+CL7501,cluster,Cluster Gorontalo,BR75,75
+CL7502,cluster,Cluster Pohuwato,BR75,75
+R11,region,Region Sulawesi Selatan Tenggara Barat,A4,
+BR73,branch,Branch Sulawesi Selatan,R11,73
+CL7301,cluster,Cluster Kepulauan Selayar,BR73,73
+CL7302,cluster,Cluster Jeneponto,BR73,73
+CL7303,cluster,Cluster Sinjai,BR73,73
+CL7304,cluster,Cluster Pangkajene dan Kepulauan,BR73,73
+CL7305,cluster,Cluster Wajo,BR73,73
+CL7306,cluster,Cluster Enrekang,BR73,73
+CL7307,cluster,Cluster Luwu Utara,BR73,73
+CL7308,cluster,Cluster Makassar,BR73,73
+BR74,branch,Branch Sulawesi Tenggara,R11,74
+CL7401,cluster,Cluster Kolaka,BR74,74
+CL7402,cluster,Cluster Buton,BR74,74
+CL7403,cluster,Cluster Wakatobi,BR74,74
+CL7404,cluster,Cluster Buton Utara,BR74,74
+CL7405,cluster,Cluster Muna Barat,BR74,74
+CL7406,cluster,Cluster Kendari,BR74,74
+BR76,branch,Branch Sulawesi Barat,R11,76
+CL7601,cluster,Cluster Pasangkayu,BR76,76
+CL7602,cluster,Cluster Polewali Mandar,BR76,76
+R12,region,Region Maluku Papua,A4,
+BR81,branch,Branch Maluku,R12,81
+CL8101,cluster,Cluster Maluku Tengah,BR81,81
+CL8102,cluster,Cluster Buru,BR81,81
+CL8103,cluster,Cluster Kepulauan Aru,BR81,81
+CL8104,cluster,Cluster Ambon,BR81,81
+BR82,branch,Branch Maluku Utara,R12,82
+CL8201,cluster,Cluster Halmahera Barat,BR82,82
+CL8202,cluster,Cluster Halmahera Selatan,BR82,82
+CL8203,cluster,Cluster Pulau Morotai,BR82,82
+CL8204,cluster,Cluster Ternate,BR82,82
+BR91,branch,Branch Papua,R12,91
+CL9101,cluster,Cluster Jayapura,BR91,91
+CL9102,cluster,Cluster Sarmi,BR91,91
+CL9103,cluster,Cluster Supiori,BR91,91
+BR92,branch,Branch Papua Barat,R12,92
+CL9201,cluster,Cluster Manokwari,BR92,92
+CL9202,cluster,Cluster Teluk Wondama,BR92,92
+CL9203,cluster,Cluster Manokwari Selatan,BR92,92
+BR93,branch,Branch Papua Selatan,R12,93
+CL9301,cluster,Cluster Merauke,BR93,93
+CL9302,cluster,Cluster Mappi,BR93,93
+BR94,branch,Branch Papua Tengah,R12,94
+CL9401,cluster,Cluster Nabire,BR94,94
+CL9402,cluster,Cluster Mimika,BR94,94
+CL9403,cluster,Cluster Intan Jaya,BR94,94
+BR95,branch,Branch Papua Pegunungan,R12,95
+CL9501,cluster,Cluster Jayawijaya,BR95,95
+CL9502,cluster,Cluster Tolikara,BR95,95
+CL9503,cluster,Cluster Lanny Jaya,BR95,95
+BR96,branch,Branch Papua Barat Daya,R12,96
+CL9601,cluster,Cluster Sorong,BR96,96
+CL9602,cluster,Cluster Tambrauw,BR96,96

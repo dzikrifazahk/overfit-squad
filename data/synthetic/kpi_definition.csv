@@ -1,0 +1,16 @@
+kpi_id,name,unit,direction,parent_kpi_id,relation,sales_controllable,description
+REV_TOTAL,Total revenue,IDR,higher,,root,True,Sum of all revenue streams for the territory.
+REV_DATA,Prepaid data revenue,IDR,higher,REV_TOTAL,component,True,"Prepaid data package revenue; driven by active subscribers, ARPU, outlet sell-through and network."
+REV_VOICE_SMS,Legacy voice & SMS revenue,IDR,higher,REV_TOTAL,component,True,Prepaid voice and SMS revenue; structurally declining (~25%/yr).
+REV_DIGITAL,Digital services revenue,IDR,higher,REV_TOTAL,component,True,"Digital/VAS revenue (games, video, financial services)."
+REV_POSTPAID,Postpaid revenue,IDR,higher,REV_TOTAL,component,True,Consumer postpaid subscription revenue.
+REV_HOME_BB,Home broadband revenue,IDR,higher,REV_TOTAL,component,True,Fixed home broadband (fiber) revenue.
+REV_B2B,B2B revenue,IDR,higher,REV_TOTAL,component,True,"Enterprise, government and SME revenue."
+SUBS_ACTIVE,Active subscribers,subscribers,higher,REV_DATA,driver,True,Mobile subscribers active in the period.
+NET_ADD,Net subscriber adds,subscribers,higher,SUBS_ACTIVE,driver,True,New subscribers minus churned subscribers.
+CHURN_RATE,Monthly churn rate,%,lower,SUBS_ACTIVE,driver,True,Churned subscribers / active subscribers.
+ARPU,Mobile ARPU,IDR/subscriber,higher,REV_DATA,driver,True,Mobile revenue / active subscribers.
+OUTLET_ACTIVE,Active NusaPOS outlets,outlets,higher,REV_DATA,driver,True,Registered outlets with at least one recharge/package sale in the period.
+RECHARGE_AVAIL,Recharge stock availability,%,higher,OUTLET_ACTIVE,driver,True,Share of outlet-days with voucher/recharge stock available.
+NETWORK_AVAIL,Network availability,%,higher,REV_DATA,driver,False,Site availability; outages are NOT controllable by the sales team.
+AKHLAK,AKHLAK behaviour score,score 0-3,higher,,behaviour,True,"Average of the six AKHLAK core values (Amanah, Kompeten, Harmonis, Loyal, Adaptif, Kolaboratif)."
