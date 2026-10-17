@@ -16,7 +16,7 @@ export type State = {
   layer: Layer;
   selection: Selection;
   highlight: string[];
-  tab: "map" | "detail" | "inbox";
+  tab: "map" | "detail" | "inbox" | "guide";
   inboxView: "all" | "pending" | "alerts" | "audit";
   chatOpen: boolean;
   chat: ChatMessage[];

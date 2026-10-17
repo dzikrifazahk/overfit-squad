@@ -10,6 +10,7 @@ const TABS: { id: State["tab"]; label: string }[] = [
   { id: "map", label: "Performance Map" },
   { id: "detail", label: "Territory Details" },
   { id: "inbox", label: "Inbox & Actions" },
+  { id: "guide", label: "Guide" },
 ];
 
 export default function TopBar() {

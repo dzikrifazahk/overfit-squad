@@ -4,6 +4,7 @@ import dynamic from "next/dynamic";
 import { StoreProvider, useStore } from "@/lib/store";
 import ChatPanel from "./ChatPanel";
 import DetailPanel from "./DetailPanel";
+import GuidePanel from "./GuidePanel";
 import InboxPanel from "./InboxPanel";
 import MapControls from "./MapControls";
 import PhoneSim from "./PhoneSim";
@@ -20,6 +21,7 @@ const FLOAT = "pointer-events-auto rounded-2xl border border-line/80 bg-white/95
 
 function Shell({ mapsKey, mapId }: { mapsKey: string; mapId: string }) {
   const { s, d } = useStore();
+  const guide = s.tab === "guide";
   return (
     <div className="relative h-screen w-screen overflow-hidden bg-canvas">
       {/* Full-screen map; everything else floats on top of it. */}
@@ -27,16 +29,22 @@ function Shell({ mapsKey, mapId }: { mapsKey: string; mapId: string }) {
 
       <div className="pointer-events-none absolute inset-x-3 top-3 z-30 flex flex-col items-center gap-2">
         <div className="pointer-events-auto w-full rounded-[28px] border border-line/80 bg-white/95 px-4 py-2 shadow-lg backdrop-blur"><TopBar /></div>
-        <SubTabBar />
+        {!guide && <SubTabBar />}
       </div>
 
-      {s.m && s.tab !== "map" && (
+      {s.m && guide && (
+        <section className={`${FLOAT} absolute inset-x-3 bottom-7 top-[92px] z-20 overflow-hidden rounded-[28px] !bg-white`}>
+          <GuidePanel />
+        </section>
+      )}
+
+      {s.m && !guide && s.tab !== "map" && (
         <section className={`${FLOAT} absolute bottom-7 left-3 top-[204px] z-20 w-[560px] overflow-hidden`}>
           {s.tab === "detail" ? <DetailPanel /> : <InboxPanel />}
         </section>
       )}
 
-      {s.chatOpen ? (
+      {guide ? null : s.chatOpen ? (
         <aside className={`${FLOAT} absolute bottom-7 right-3 top-[204px] z-20 flex w-[400px] flex-col overflow-hidden rounded-[28px]`}>
           {s.m ? <ChatPanel /> : <p className="p-4 text-sm text-muted">Loading data…</p>}
         </aside>
@@ -52,8 +60,8 @@ function Shell({ mapsKey, mapId }: { mapsKey: string; mapId: string }) {
         </button>
       )}
 
-      {s.m && <MapControls />}
-      {s.m && <PhoneSim />}
+      {s.m && !guide && <MapControls />}
+      {s.m && !guide && <PhoneSim />}
     </div>
   );
 }

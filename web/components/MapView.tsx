@@ -22,7 +22,7 @@ const MASK_FILL: [number, number, number, number] = [236, 239, 243, 255];
 
 /** Space taken by the floating UI, so fitted regions stay visible. */
 function cameraPadding(tab: string, chatOpen: boolean) {
-  return { top: 215, bottom: 30, right: chatOpen ? 430 : 30, left: tab === "map" ? 30 : 575 };
+  return { top: 215, bottom: 30, right: chatOpen ? 430 : 30, left: tab === "detail" || tab === "inbox" ? 575 : 30 };
 }
 
 function bboxOf(f: Feature): BBox {
